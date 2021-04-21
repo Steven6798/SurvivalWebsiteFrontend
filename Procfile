@@ -1,0 +1,1 @@
+web: node src ./src/component/app/app.jsx
