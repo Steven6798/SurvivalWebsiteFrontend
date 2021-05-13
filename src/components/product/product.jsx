@@ -5,10 +5,10 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import SigSauer220R45LEGION from "../../images/Sig_Sauer_220R_45_LEGION.jpg"
-import SigSauerP365XROMEOZERO from "../../images/Sig_Sauer_P365X_ROMEOZERO.jpg"
+import ASEStandardFishingKit from "../../images/product_best_glide_ase_standard_emergency_fishing_kit.jpg"
+import ASEUltimateSurvivalKit from "../../images/product_best_glide_ase_ultimate_survival_kit.jpg"
 
-const API = 'https://survivalwebsite.herokuapp.com/';
+const API = 'https://survivalwebsitebackend.herokuapp.com/';
 const DEFAULT_QUERY = 'SurvivalApp/get/product';
 
 class Product extends React.Component {
@@ -57,7 +57,7 @@ class Product extends React.Component {
               <Col>
                 <Row className="productGridLines">
                   <Col xs="3" className="noPaddingMargin">
-                    <Image className="picDim d-block" src={SigSauer220R45LEGION}/>
+                    <Image className="picDim d-block" src={ASEStandardFishingKit}/>
                   </Col>
                   <Col>
                     <Row>
@@ -73,7 +73,7 @@ class Product extends React.Component {
                 </Row>
                 <Row className="productGridLines">
                   <Col xs="3" className="noPaddingMargin">
-                    <Image className="picDim d-block" src={SigSauerP365XROMEOZERO}/>
+                    <Image className="picDim d-block" src={ASEUltimateSurvivalKit}/>
                   </Col>
                   <Col>
                     <Row>
