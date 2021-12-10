@@ -1,7 +1,6 @@
 import React from 'react';
 import "./product.css";
 import NavBar from "../navigationBar/navigationBar";
-import StarRating from 'react-bootstrap-star-rating';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -65,7 +64,6 @@ class Product extends React.Component {
                       <a href="">{nameList[0]}</a>
                     </Row>
                     <Row>
-                      {/*<StarRating defaultValue={0} min={0} max={5} step={0.5}/>*/}
                       <h2 className="productProductDiv">Stars</h2>
                     </Row>
                     <Row>
