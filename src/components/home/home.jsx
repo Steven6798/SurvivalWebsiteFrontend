@@ -5,18 +5,18 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import CBRN from "../../images/home_CBRN.jpg"
-import NaturalDisaster from "../../images/home_natural_disaster.jpg"
-import Pandemic from "../../images/home_pandemic.jpg"
-import Crash from "../../images/home_crash.jpg"
-import Riot from "../../images/home_riot.jpg"
-import Fire from "../../images/home_fire.jpg"
-import ActiveShooting from "../../images/home_active_shooting.jpg"
-import Supplychain from "../../images/home_supplychain.jpg"
-import Invasion from "../../images/home_invasion.jpg"
-import TerroristAttack from "../../images/home_terrorist_attack.jpg"
-import WorldWar from "../../images/home_world_war.jpg"
-import Extinction from "../../images/home_extinction.jpg"
+import CBRN from "../../images/homepage/home_CBRN.jpg"
+import NaturalDisaster from "../../images/homepage/home_natural_disaster.jpg"
+import Pandemic from "../../images/homepage/home_pandemic.jpg"
+import Crash from "../../images/homepage/home_crash.jpg"
+import Riot from "../../images/homepage/home_riot.jpg"
+import Fire from "../../images/homepage/home_fire.jpg"
+import ActiveShooting from "../../images/homepage/home_active_shooting.jpg"
+import Supplychain from "../../images/homepage/home_supplychain.jpg"
+import Invasion from "../../images/homepage/home_invasion.jpg"
+import TerroristAttack from "../../images/homepage/home_terrorist_attack.jpg"
+import WorldWar from "../../images/homepage/home_world_war.jpg"
+import Extinction from "../../images/homepage/home_extinction.jpg"
 
 class Home extends React.Component {
   render() {

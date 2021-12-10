@@ -1,12 +1,13 @@
 import React from 'react';
 import "./product.css";
 import NavBar from "../navigationBar/navigationBar";
+import StarRating from 'react-bootstrap-star-rating';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import ASEStandardFishingKit from "../../images/product_best_glide_ase_standard_emergency_fishing_kit.jpg"
-import ASEUltimateSurvivalKit from "../../images/product_best_glide_ase_ultimate_survival_kit.jpg"
+import ASEStandardFishingKit from "../../images/productpage/products/best_glide_ase_standard_fishing_kit.jpg"
+import ASEUltimateSurvivalKit from "../../images/productpage/products/best_glide_ase_ultimate_survival_kit_advanced.jpg"
 
 const API = 'https://survivalwebsitebackend.herokuapp.com/';
 const DEFAULT_QUERY = 'SurvivalApp/get/product';
@@ -42,7 +43,7 @@ class Product extends React.Component {
             </Row>
             <Row>
               <Col>
-                <h2 className="productTitleDescription">We offer the best products in
+                <h2 className="productTitleDescription">We offer the best products on
                 the market. Each item has been tested by our experts and will
                 help survive when the time comes.</h2>
               </Col>
@@ -64,6 +65,7 @@ class Product extends React.Component {
                       <a href="">{nameList[0]}</a>
                     </Row>
                     <Row>
+                      {/*<StarRating defaultValue={0} min={0} max={5} step={0.5}/>*/}
                       <h2 className="productProductDiv">Stars</h2>
                     </Row>
                     <Row>

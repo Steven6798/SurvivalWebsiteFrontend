@@ -1,6 +1,6 @@
 .TitleDiv {
   text-align: center;
-  background-image: url("../../images/home_bg_gray_climate.jpg");
+  background-image: url("../../images/homepage/home_bg_gray_climate.jpg");
   background-position: center;
   background-size: cover;
   min-height: 50vh;
@@ -24,7 +24,7 @@
 
 .ScenarioDiv {
   text-align: center;
-  background-image: url("../../images/home_bg_gray.jpg");
+  background-image: url("../../images/homepage/home_bg_gray.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 1px;
